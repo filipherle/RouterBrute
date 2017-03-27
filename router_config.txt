@@ -1,0 +1,8 @@
+[config]
+username = admin
+link = http://192.168.0.1/
+link_redirects_to = http://192.168.0.1/home.asp
+wordlist = wordlist.txt
+password_field = Password
+username_field = Username
+form_name = login
