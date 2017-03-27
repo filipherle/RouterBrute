@@ -44,6 +44,7 @@ def brute():
             if resp.geturl()==link_redirects_to:
                 print("[!] Correct Password is %s" %(password))
                 print("[!] That took " + str(tries) + " tries!")
+                time.sleep(3)
                 break
             else:
                 print("[+] Checking %s" %(password))
@@ -76,5 +77,6 @@ else:
         if response.geturl()==link_redirects_to:
                 print "[+] Correct password is",''.join(x)
                 print("[!] That took " + str(tries) + " tries!")
+                time.sleep(3)
                 break
 
